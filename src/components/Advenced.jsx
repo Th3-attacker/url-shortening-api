@@ -4,7 +4,7 @@ import fully from "../../public/images/icon-fully-customizable.svg";
 export default function Advenced() {
   return (
     <>
-      <section className="py-10 bg-gray-100 lg:pt-20 lg:pb-20">
+      <section className="py-10 bg-gray-100 lg:pt-20 lg:pb-40">
         <div className="max-width">
           <h2 className="mb-3 text-4xl font-bold text-center text-slate-800">
             Advenced statistics
