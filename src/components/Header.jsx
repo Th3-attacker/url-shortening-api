@@ -28,7 +28,6 @@ export default function Header() {
                 </ul>
               </nav>
             </article>
-
             <ul className="flex items-center justify-end space-x-5">
               <li className="my-5 md:my-0 text-slate-400 hover:text-slate-800">
                 <button>Login</button>

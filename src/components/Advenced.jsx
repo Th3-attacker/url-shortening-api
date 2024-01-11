@@ -13,12 +13,12 @@ export default function Advenced() {
             Track how your links are performing across the web <br /> with our
             advanced statistics dashboard.
           </p>
-          <div className="relative grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
-            <div className="absolute hidden w-full h-2 lg:flex top-1/2 bg-cyan-500"></div>
+          <div className="relative grid grid-cols-1 gap-16 md:gap-5 md:grid-cols-3 lg:grid-cols-3">
+            <div className="absolute w-full h-2 rotate-90 md:rotate-0 lg:flex top-1/2 bg-cyan-500"></div>
             <article className="relative p-5 bg-white rounded ">
               <img
                 src={brand}
-                className="p-4 rounded-full -mt-14 bg-slate-800"
+                className="p-4 mx-auto rounded-full md:mx-0 -mt-14 md:-mt-14 bg-slate-800"
               />
               <h3 className="mt-5 mb-2 text-lg font-bold text-slate-800">
                 Brand Recognition
@@ -32,7 +32,7 @@ export default function Advenced() {
             <article className="p-5 transform bg-white rounded lg:translate-y-8">
               <img
                 src={detailed}
-                className="p-4 rounded-full -mt-14 bg-slate-800"
+                className="p-4 mx-auto rounded-full -mt-14 md:mx-0 md:-mt-14 bg-slate-800"
               />
               <h3 className="mt-5 mb-2 text-lg font-bold text-slate-800">
                 Detailed Records
@@ -46,7 +46,7 @@ export default function Advenced() {
             <article className="p-5 transform bg-white rounded lg:translate-y-16">
               <img
                 src={fully}
-                className="p-4 rounded-full -mt-14 bg-slate-800"
+                className="p-4 mx-auto rounded-full -mt-14 bg-slate-800 md:mx-0 md:-mt-14"
               />
               <h3 className="mt-5 mb-2 text-lg font-bold text-slate-800">
                 Fully Customizable
